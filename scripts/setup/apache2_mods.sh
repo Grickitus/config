@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-sudo apt-get install libapache2-mod-apparmor
-
 sudo a2enmod rewrite
 
 sudo a2enmod expires
