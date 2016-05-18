@@ -1,1 +1,5 @@
-Create user
+Create user (in permissions.sh?)
+
+Install git
+
+Sort install scripts into stages
