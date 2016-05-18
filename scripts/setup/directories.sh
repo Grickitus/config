@@ -1,31 +1,31 @@
 #!/usr/bin/env bash
 
-grickitus_installpath="/home"
+grickitus_installpath="/home/www-data"
 
 # set up directory structure
-sudo mkdir "${grickitus_installpath}/www-data"
+sudo mkdir "${grickitus_installpath}"
 
-sudo mkdir "${grickitus_installpath}/www-data/config"
+sudo mkdir "${grickitus_installpath}/config"
 
-sudo mkdir "${grickitus_installpath}/www-data/live"
+sudo mkdir "${grickitus_installpath}/live"
 
-sudo mkdir "${grickitus_installpath}/www-data/logs"
+sudo mkdir "${grickitus_installpath}/logs"
 
-sudo mkdir "${grickitus_installpath}/www-data/resources"
+sudo mkdir "${grickitus_installpath}/resources"
 
 # set up permissions
-sudo chown root:webadmin "${grickitus_installpath}/www-data/config"
+sudo chown root:webadmin "${grickitus_installpath}/config"
 
-sudo chown root:webdata "${grickitus_installpath}/www-data/live"
+sudo chown root:webdata "${grickitus_installpath}/live"
 
-sudo chown root:webdata "${grickitus_installpath}/www-data/logs"
+sudo chown root:webdata "${grickitus_installpath}/logs"
 
-sudo chown root:webadmin "${grickitus_installpath}/www-data/resources"
+sudo chown root:webadmin "${grickitus_installpath}/resources"
 
-sudo chmod 2775 "${grickitus_installpath}/www-data/config"
+sudo chmod 2775 "${grickitus_installpath}/config"
 
-sudo chmod 2775 "${grickitus_installpath}/www-data/live"
+sudo chmod 2775 "${grickitus_installpath}/live"
 
-sudo chmod 2775 "${grickitus_installpath}/www-data/logs"
+sudo chmod 2775 "${grickitus_installpath}/logs"
 
-sudo chmod 2775 "${grickitus_installpath}/www-data/resources"
+sudo chmod 2775 "${grickitus_installpath}/resources"
