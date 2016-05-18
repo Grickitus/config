@@ -3,3 +3,5 @@ Create user (in permissions.sh?)
 Install git
 
 Sort install scripts into stages
+
+Script to move config repo into created config directory
